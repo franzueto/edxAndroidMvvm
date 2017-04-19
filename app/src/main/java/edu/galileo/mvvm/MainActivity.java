@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     ContactModel[] myDataset = {
         new ContactModel("first", true, "+123456789"),
-        new ContactModel("second", true, "+000123456"),
+        new ContactModel("second", false, "+000123456"),
         new ContactModel("third", true, "+111456789")
     };
 
