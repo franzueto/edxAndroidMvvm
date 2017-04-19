@@ -37,7 +37,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:enabled="@{viewModel.enabled}"
-                android:onClick="@{viewModel.onCallClick}" />
+                android:onClick="@{viewModel.onCallClick}"
+                android:text="Call" />
 
         </LinearLayout>
 
